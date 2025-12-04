@@ -8,13 +8,16 @@ Para evaluar el funcionamiento del circuito antes de su montaje físico, se util
 *El siguiente repositorio contiene :* 
 
 #### - Archivo de la simulación en SimulIDE 
-  - Se encuentra en la carpeta simulación
+  -El archivo se encuentra en el repositorio con el nombre SIMULADOR_Z80CONTRASEÑA.sim1 
 
 #### - Video de la simulación en funcionamiento 
 
 <a href="https://www.youtube.com/@ValenWerle">
   <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="Youtube">
 </a>
+
+#### - Código compilado .hex
+  -El archivo se encuentra en el repositorio con el nombre programaCONTRASEÑA.hex 
 
 ##### - Código fuente de ensamblador Z80 utilizado para el proyecto 
 ~~~
