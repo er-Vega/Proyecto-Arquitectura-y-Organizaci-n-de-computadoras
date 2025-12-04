@@ -5,13 +5,18 @@
 
 Para evaluar el funcionamiento del circuito antes de su montaje físico, se utilizó el software SimulIDE, el cual permite simular componentes electrónicos en tiempo real. Con esta herramienta fue posible verificar el comportamiento del diseño, identificar posibles errores en la implementación. 
 
-El siguiente repositorio contiene : 
+*El siguiente repositorio contiene :* 
 
-- Archivo de la simulación en SimulIDE 
+#### - Archivo de la simulación en SimulIDE 
+  - Se encuentra en la carpeta simulación
 
-- Video de la simulación en funcionamiento 
+#### - Video de la simulación en funcionamiento 
 
-#### Código fuente de ensamblador Z80 utilizado para el proyecto 
+<a href="https://www.youtube.com/@ValenWerle">
+  <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="Youtube">
+</a>
+
+##### - Código fuente de ensamblador Z80 utilizado para el proyecto 
 ~~~
 ORG 0000h
 
