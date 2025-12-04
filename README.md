@@ -4,7 +4,7 @@
 ## Repositorio de recursos utilizados para la simulación del proyecto 
 
 Para evaluar el funcionamiento del circuito antes de su montaje físico, se utilizó el software SimulIDE, el cual permite simular componentes electrónicos en tiempo real. <br>
-[Descargar SimulIDE:](https://www.google.com)<br>
+[Descargar SimulIDE:](https://simulide.com/p/downloads/)<br>
 Con esta herramienta fue posible verificar el comportamiento del diseño, identificar posibles errores en la implementación.
 
 
