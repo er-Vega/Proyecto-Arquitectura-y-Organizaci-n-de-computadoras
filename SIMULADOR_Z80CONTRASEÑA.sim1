@@ -1,0 +1,461 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Resistor" CircId="Resistor-503" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-608,112" rotation="0" hflip="1" vflip="1" label="Resistor-503" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Memory" CircId="Memory-507" mainComp="false" Show_id="false" Show_Val="false" Pos="-452,84" rotation="0" hflip="1" vflip="1" label="Memory-507" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Address_Bits="13 _bits" Data_Bits="8 _bits" Persistent="true" Asynch="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="true" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Mem="33,0,1,126,71,50,0,32,33,0,224,126,50,1,32,33,1,1,126,50,2,32,58,1,32,184,14,255,32,6,62,1,237,121,24,4,62,2,237,121,118,39,230,7,40,6,13,32,230,195,19,0,62,1,195,19,0,122,193,201,245,197,62,1,14,3,211,224,71,205,94,0,58,0,224,230,15,254,15,32,237,120,203,39,230,7,40,3,13,32,231,193,241,201,197,1,32,0,11,120,177,32,251,193,201,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,66," />
+
+<item itemtype="Subcircuit" CircId="74HC00-511" mainComp="false" Show_id="true" Show_Val="false" Pos="-304,-4" rotation="0" hflip="1" vflip="1" label="74HC00-511" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Led" CircId="Led-512" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-64" rotation="0" hflip="1" vflip="1" label="Led-512" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="false" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Memory" CircId="Memory-513" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,300" rotation="0" hflip="1" vflip="1" label="Memory-513" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Address_Bits="15 _bits" Data_Bits="8 _bits" Persistent="false" Asynch="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="MCU" CircId="Z80-514" mainComp="false" Show_id="true" Show_Val="false" Pos="-688,20" rotation="0" hflip="1" vflip="1" label="Z80-514" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false" Producer="Zilog" CMOS="false" Single cycle I/O="false" Int_Vector="false" cpuRegs="TState,TState_Int,Op_Code,Instruction,Data_Bus_In,M1_Type,A,Address_Bus,Data_Bus_Out,B" MainMcu="true" />
+
+<item itemtype="Clock" CircId="Clock-516" mainComp="false" ShowProp="Freq" Show_id="false" Show_Val="true" Pos="-784,68" rotation="0" hflip="1" vflip="1" label="Clock-516" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="4 MHz" Always_On="true" />
+
+<item itemtype="Resistor" CircId="Resistor-518" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-608,148" rotation="0" hflip="1" vflip="1" label="Resistor-518" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-519" mainComp="false" Show_id="false" Show_Val="false" Pos="-596,276" rotation="-90" hflip="1" vflip="1" label="Fixed Voltage-519" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-525" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,104" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-525" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Subcircuit" CircId="74HC138-526" mainComp="false" Show_id="true" Show_Val="false" Pos="-468,-84" rotation="0" hflip="1" vflip="1" label="74HC138-526" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Subcircuit" CircId="74HC373-533" mainComp="false" Show_id="true" Show_Val="false" Pos="-200,-96" rotation="0" hflip="1" vflip="1" label="74HC373-533" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Ground" CircId="Ground-535" mainComp="false" Show_id="false" Show_Val="false" Pos="-552,-32" rotation="0" hflip="1" vflip="1" label="Ground-535" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-536" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,-16" rotation="0" hflip="1" vflip="1" label="Ground-536" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="74HC08-541" mainComp="false" Show_id="true" Show_Val="false" Pos="-304,-92" rotation="0" hflip="1" vflip="1" label="74HC08-541" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Led" CircId="Led-545" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,-88" rotation="0" hflip="1" vflip="1" label="Led-545" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-546" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-92,-64" rotation="0" hflip="1" vflip="1" label="Resistor-546" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-547" mainComp="false" Show_id="false" Show_Val="false" Pos="-572,-20" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-547" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-548" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-88,-88" rotation="0" hflip="1" vflip="1" label="Resistor-548" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-553" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-608,164" rotation="0" hflip="1" vflip="1" label="Resistor-553" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Switch" CircId="Switch-555" mainComp="false" Show_id="false" Show_Val="false" Pos="-608,132" rotation="0" hflip="1" vflip="1" label="Switch-555" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Subcircuit" CircId="74HC373-556" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,24" rotation="0" hflip="1" vflip="1" label="74HC373-556" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-557" mainComp="false" Show_id="false" Show_Val="false" Pos="-164,56" rotation="0" hflip="1" vflip="1" label="SwitchDip-557" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="false" State="65" />
+
+<item itemtype="Node" CircId="Node-494" mainComp="false" Pos="-396,216" />
+
+<item itemtype="Node" CircId="Node-495" mainComp="false" Pos="-540,68" />
+
+<item itemtype="Node" CircId="Node-496" mainComp="false" Pos="-544,60" />
+
+<item itemtype="Node" CircId="Node-497" mainComp="false" Pos="-588,164" />
+
+<item itemtype="Node" CircId="Node-498" mainComp="false" Pos="-264,224" />
+
+<item itemtype="Node" CircId="Node-499" mainComp="false" Pos="-552,44" />
+
+<item itemtype="Node" CircId="Node-500" mainComp="false" Pos="-268,220" />
+
+<item itemtype="Node" CircId="Node-501" mainComp="false" Pos="-292,196" />
+
+<item itemtype="Node" CircId="Node-502" mainComp="false" Pos="-288,200" />
+
+<item itemtype="Node" CircId="Node-504" mainComp="false" Pos="-280,208" />
+
+<item itemtype="Node" CircId="Node-505" mainComp="false" Pos="-528,92" />
+
+<item itemtype="Node" CircId="Node-506" mainComp="false" Pos="-572,140" />
+
+<item itemtype="Node" CircId="Node-508" mainComp="false" Pos="-204,64" />
+
+<item itemtype="Node" CircId="Node-509" mainComp="false" Pos="-536,76" />
+
+<item itemtype="Node" CircId="Node-510" mainComp="false" Pos="-556,36" />
+
+<item itemtype="Node" CircId="Node-515" mainComp="false" Pos="-240,132" />
+
+<item itemtype="Node" CircId="Node-517" mainComp="false" Pos="-204,80" />
+
+<item itemtype="Node" CircId="Node-520" mainComp="false" Pos="-588,140" />
+
+<item itemtype="Node" CircId="Node-521" mainComp="false" Pos="-548,52" />
+
+<item itemtype="Node" CircId="Node-522" mainComp="false" Pos="-516,116" />
+
+<item itemtype="Node" CircId="Node-523" mainComp="false" Pos="-596,244" />
+
+<item itemtype="Node" CircId="Node-524" mainComp="false" Pos="-204,104" />
+
+<item itemtype="Node" CircId="Node-527" mainComp="false" Pos="-204,72" />
+
+<item itemtype="Node" CircId="Node-528" mainComp="false" Pos="-392,220" />
+
+<item itemtype="Node" CircId="Node-529" mainComp="false" Pos="-492,-68" />
+
+<item itemtype="Node" CircId="Node-530" mainComp="false" Pos="-520,108" />
+
+<item itemtype="Node" CircId="Node-531" mainComp="false" Pos="-72,-64" />
+
+<item itemtype="Node" CircId="Node-532" mainComp="false" Pos="-204,88" />
+
+<item itemtype="Node" CircId="Node-534" mainComp="false" Pos="-400,212" />
+
+<item itemtype="Node" CircId="Node-537" mainComp="false" Pos="-524,100" />
+
+<item itemtype="Node" CircId="Node-538" mainComp="false" Pos="-588,148" />
+
+<item itemtype="Node" CircId="Node-539" mainComp="false" Pos="-412,200" />
+
+<item itemtype="Node" CircId="Node-540" mainComp="false" Pos="-276,212" />
+
+<item itemtype="Node" CircId="Node-542" mainComp="false" Pos="-416,196" />
+
+<item itemtype="Node" CircId="Node-543" mainComp="false" Pos="-204,56" />
+
+<item itemtype="Node" CircId="Node-544" mainComp="false" Pos="-204,48" />
+
+<item itemtype="Node" CircId="Node-549" mainComp="false" Pos="-204,40" />
+
+<item itemtype="Node" CircId="Node-550" mainComp="false" Pos="-388,224" />
+
+<item itemtype="Node" CircId="Node-551" mainComp="false" Pos="-284,204" />
+
+<item itemtype="Node" CircId="Node-552" mainComp="false" Pos="-560,28" />
+
+<item itemtype="Node" CircId="Node-554" mainComp="false" Pos="-512,124" />
+
+<item itemtype="Node" CircId="Node-558" mainComp="false" Pos="-404,208" />
+
+<item itemtype="Node" CircId="Node-559" mainComp="false" Pos="-596,236" />
+
+<item itemtype="Node" CircId="Node-560" mainComp="false" Pos="-292,128" />
+
+<item itemtype="Node" CircId="Node-561" mainComp="false" Pos="-532,84" />
+
+<item itemtype="Node" CircId="Node-562" mainComp="false" Pos="-408,204" />
+
+<item itemtype="Node" CircId="Node-563" mainComp="false" Pos="-496,-76" />
+
+<item itemtype="Node" CircId="Node-564" mainComp="false" Pos="-272,216" />
+
+<item itemtype="Node" CircId="Node-565" mainComp="false" Pos="-568,172" />
+
+<item itemtype="Connector" uid="Connector-1228" startpinid="Node-561-2" endpinid="Memory-507-in7" pointList="-532,84,-476,84" />
+
+<item itemtype="Connector" uid="Connector-1229" startpinid="Z80-514-PORTA6" endpinid="Node-509-0" pointList="-632,60,-632,64,-604,64,-604,76,-536,76" />
+
+<item itemtype="Connector" uid="Connector-1230" startpinid="74HC373-556-Q1" endpinid="Node-515-0" pointList="-76,40,-68,40,-68,132,-240,132" />
+
+<item itemtype="Connector" uid="Connector-1231" startpinid="Z80-514-PORTA14" endpinid="Node-529-0" pointList="-696,52,-720,52,-720,-68,-492,-68" />
+
+<item itemtype="Connector" uid="Connector-1232" startpinid="Node-532-2" endpinid="SwitchDip-557-switch7-pinP" pointList="-204,88,-172,88" />
+
+<item itemtype="Connector" uid="Connector-1233" startpinid="Node-564-1" endpinid="74HC373-556-Q5" pointList="-272,216,-272,148,-52,148,-52,72,-76,72" />
+
+<item itemtype="Connector" uid="Connector-1234" startpinid="Z80-514-PORTA11" endpinid="Node-522-0" pointList="-696,28,-700,28,-700,12,-584,12,-584,116,-516,116" />
+
+<item itemtype="Connector" uid="Connector-1235" startpinid="74HC373-556-Q3" endpinid="Node-504-1" pointList="-76,56,-60,56,-60,140,-280,140,-280,208" />
+
+<item itemtype="Connector" uid="Connector-1236" startpinid="Led-512-lPin" endpinid="74HC373-533-Q1" pointList="-148,-64,-148,-80,-160,-80" />
+
+<item itemtype="Connector" uid="Connector-1237" startpinid="Z80-514-PORTA0" endpinid="Node-552-0" pointList="-632,108,-624,108,-624,28,-560,28" />
+
+<item itemtype="Connector" uid="Connector-1238" startpinid="Node-523-2" endpinid="Node-559-0" pointList="-596,244,-596,236" />
+
+<item itemtype="Connector" uid="Connector-1239" startpinid="Node-559-2" endpinid="Node-497-0" pointList="-596,236,-588,236,-588,164" />
+
+<item itemtype="Connector" uid="Connector-1240" startpinid="74HC373-533-D1" endpinid="Node-515-1" pointList="-208,-80,-228,-80,-228,20,-240,20,-240,132" />
+
+<item itemtype="Connector" uid="Connector-1241" startpinid="Memory-507-out6" endpinid="Node-528-0" pointList="-428,76,-392,76,-392,220" />
+
+<item itemtype="Connector" uid="Connector-1242" startpinid="Node-505-1" endpinid="Memory-513-in8" pointList="-528,92,-528,300,-348,300" />
+
+<item itemtype="Connector" uid="Connector-1243" startpinid="Node-560-1" endpinid="74HC373-533-D0" pointList="-292,128,-256,128,-256,4,-232,4,-232,-88,-208,-88" />
+
+<item itemtype="Connector" uid="Connector-1244" startpinid="Z80-514-PORTA13" endpinid="Node-563-0" pointList="-696,44,-712,44,-712,-76,-496,-76" />
+
+<item itemtype="Connector" uid="Connector-1245" startpinid="Z80-514-PORTA5" endpinid="Node-495-0" pointList="-632,68,-540,68" />
+
+<item itemtype="Connector" uid="Connector-1246" startpinid="Resistor-518-rPin" endpinid="Node-538-1" pointList="-592,148,-588,148" />
+
+<item itemtype="Connector" uid="Connector-1247" startpinid="Resistor-503-rPin" endpinid="Node-520-1" pointList="-592,112,-592,140,-588,140" />
+
+<item itemtype="Connector" uid="Connector-1248" startpinid="74HC00-511-1Y" endpinid="74HC373-533-LE" pointList="-264,12,-224,12,-224,-16,-208,-16" />
+
+<item itemtype="Connector" uid="Connector-1249" startpinid="SwitchDip-557-switch5-pinN" endpinid="74HC373-556-D5" pointList="-148,72,-124,72" />
+
+<item itemtype="Connector" uid="Connector-1250" startpinid="74HC08-541-1A" endpinid="74HC138-526-!Q1" pointList="-312,-84,-344,-84,-344,-68,-428,-68" />
+
+<item itemtype="Connector" uid="Connector-1251" startpinid="Z80-514-PORTA12" endpinid="Node-554-0" pointList="-696,36,-704,36,-704,4,-580,4,-580,124,-512,124" />
+
+<item itemtype="Connector" uid="Connector-1252" startpinid="Clock-516-outnod" endpinid="Z80-514-CPORT0CLK" pointList="-768,68,-696,68" />
+
+<item itemtype="Connector" uid="Connector-1253" startpinid="Node-558-2" endpinid="Z80-514-PORTD3" pointList="-404,208,-720,208,-720,84,-696,84" />
+
+<item itemtype="Connector" uid="Connector-1254" startpinid="Node-494-1" endpinid="Node-564-0" pointList="-396,216,-272,216" />
+
+<item itemtype="Connector" uid="Connector-1255" startpinid="SwitchDip-557-switch0-pinN" endpinid="74HC373-556-D0" pointList="-148,32,-124,32" />
+
+<item itemtype="Connector" uid="Connector-1256" startpinid="Node-565-2" endpinid="Memory-513-Pin_We" pointList="-568,172,-568,356,-348,356" />
+
+<item itemtype="Connector" uid="Connector-1257" startpinid="Node-509-1" endpinid="Memory-513-in6" pointList="-536,76,-536,284,-348,284" />
+
+<item itemtype="Connector" uid="Connector-1258" startpinid="Node-549-2" endpinid="SwitchDip-557-switch0-pinP" pointList="-204,40,-204,32,-172,32" />
+
+<item itemtype="Connector" uid="Connector-1259" startpinid="Node-515-2" endpinid="Node-502-1" pointList="-240,132,-288,132,-288,200" />
+
+<item itemtype="Connector" uid="Connector-1260" startpinid="Node-495-1" endpinid="Memory-513-in5" pointList="-540,68,-540,276,-348,276" />
+
+<item itemtype="Connector" uid="Connector-1261" startpinid="Node-504-2" endpinid="Memory-513-out3" pointList="-280,208,-280,260,-300,260" />
+
+<item itemtype="Connector" uid="Connector-1262" startpinid="Node-510-1" endpinid="Memory-513-in1" pointList="-556,36,-556,244,-348,244" />
+
+<item itemtype="Connector" uid="Connector-1263" startpinid="74HC08-541-2Y" endpinid="Memory-513-Pin_Cs" pointList="-264,-60,-248,-60,-248,364,-300,364" />
+
+<item itemtype="Connector" uid="Connector-1264" startpinid="Node-562-2" endpinid="Z80-514-PORTD2" pointList="-408,204,-716,204,-716,116,-696,116" />
+
+<item itemtype="Connector" uid="Connector-1265" startpinid="Node-552-2" endpinid="Memory-507-in0" pointList="-560,28,-476,28" />
+
+<item itemtype="Connector" uid="Connector-1266" startpinid="Node-502-2" endpinid="Memory-513-out1" pointList="-288,200,-288,244,-300,244" />
+
+<item itemtype="Connector" uid="Connector-1267" startpinid="Node-563-2" endpinid="74HC138-526-A0" pointList="-496,-76,-476,-76" />
+
+<item itemtype="Connector" uid="Connector-1268" startpinid="Memory-507-out4" endpinid="Node-534-0" pointList="-428,60,-400,60,-400,212" />
+
+<item itemtype="Connector" uid="Connector-1269" startpinid="Node-540-2" endpinid="Memory-513-out4" pointList="-276,212,-276,268,-300,268" />
+
+<item itemtype="Connector" uid="Connector-1270" startpinid="Z80-514-PORTA9" endpinid="Node-537-0" pointList="-632,36,-632,40,-592,40,-592,100,-524,100" />
+
+<item itemtype="Connector" uid="Connector-1271" startpinid="Node-517-1" endpinid="Node-532-0" pointList="-204,80,-204,88" />
+
+<item itemtype="Connector" uid="Connector-1272" startpinid="Node-558-1" endpinid="Node-504-0" pointList="-404,208,-280,208" />
+
+<item itemtype="Connector" uid="Connector-1273" startpinid="Node-530-1" endpinid="Memory-513-in10" pointList="-520,108,-520,316,-348,316" />
+
+<item itemtype="Connector" uid="Connector-1274" startpinid="Node-496-1" endpinid="Memory-513-in4" pointList="-544,60,-544,268,-348,268" />
+
+<item itemtype="Connector" uid="Connector-1275" startpinid="Node-565-1" endpinid="74HC00-511-1B" pointList="-568,172,-320,172,-320,12,-312,12" />
+
+<item itemtype="Connector" uid="Connector-1276" startpinid="Z80-514-PORTA7" endpinid="Node-561-0" pointList="-632,52,-632,56,-600,56,-600,84,-532,84" />
+
+<item itemtype="Connector" uid="Connector-1277" startpinid="74HC08-541-1B" endpinid="74HC138-526-!Q2" pointList="-312,-76,-336,-76,-336,-60,-428,-60" />
+
+<item itemtype="Connector" uid="Connector-1278" startpinid="Node-520-2" endpinid="Memory-507-Pin_We" pointList="-588,140,-588,132,-476,132" />
+
+<item itemtype="Connector" uid="Connector-1279" startpinid="Fixed Voltage-547-outnod" endpinid="74HC138-526-E3" pointList="-556,-20,-476,-20" />
+
+<item itemtype="Connector" uid="Connector-1280" startpinid="Led-545-lPin" endpinid="74HC373-533-Q0" pointList="-144,-88,-160,-88" />
+
+<item itemtype="Connector" uid="Connector-1281" startpinid="Node-527-2" endpinid="Node-508-0" pointList="-204,72,-204,64" />
+
+<item itemtype="Connector" uid="Connector-1282" startpinid="Memory-507-Pin_Cs" endpinid="74HC138-526-!Q0" pointList="-428,140,-424,140,-424,-76,-428,-76" />
+
+<item itemtype="Connector" uid="Connector-1283" startpinid="74HC08-541-2A" endpinid="74HC138-526-!Q3" pointList="-312,-68,-328,-68,-328,-52,-428,-52" />
+
+<item itemtype="Connector" uid="Connector-1284" startpinid="Node-528-1" endpinid="Node-500-0" pointList="-392,220,-268,220" />
+
+<item itemtype="Connector" uid="Connector-1285" startpinid="SwitchDip-557-switch3-pinN" endpinid="74HC373-556-D3" pointList="-148,56,-124,56" />
+
+<item itemtype="Connector" uid="Connector-1286" startpinid="Node-564-2" endpinid="Memory-513-out5" pointList="-272,216,-272,276,-300,276" />
+
+<item itemtype="Connector" uid="Connector-1287" startpinid="74HC373-533-!OE" endpinid="Z80-514-CPORT0HALT" pointList="-208,-8,-208,-4,-756,-4,-756,168,-704,168,-704,164,-696,164" />
+
+<item itemtype="Connector" uid="Connector-1288" startpinid="Node-530-2" endpinid="Memory-507-in10" pointList="-520,108,-476,108" />
+
+<item itemtype="Connector" uid="Connector-1289" startpinid="Node-550-2" endpinid="Memory-507-out7" pointList="-388,224,-388,84,-428,84" />
+
+<item itemtype="Connector" uid="Connector-1290" startpinid="Node-554-1" endpinid="Memory-513-in12" pointList="-512,124,-512,332,-348,332" />
+
+<item itemtype="Connector" uid="Connector-1291" startpinid="Node-499-1" endpinid="Memory-513-in2" pointList="-552,44,-552,252,-348,252" />
+
+<item itemtype="Connector" uid="Connector-1292" startpinid="Node-563-1" endpinid="Memory-513-in13" pointList="-496,-76,-496,12,-376,12,-376,340,-348,340" />
+
+<item itemtype="Connector" uid="Connector-1293" startpinid="Z80-514-PORTD0" endpinid="Node-542-0" pointList="-696,132,-708,132,-708,196,-416,196" />
+
+<item itemtype="Connector" uid="Connector-1294" startpinid="74HC138-526-!Q7" endpinid="74HC373-556-!OE" pointList="-428,-20,-336,-20,-336,112,-124,112" />
+
+<item itemtype="Connector" uid="Connector-1295" startpinid="SwitchDip-557-switch6-pinP" endpinid="Node-517-0" pointList="-172,80,-204,80" />
+
+<item itemtype="Connector" uid="Connector-1296" startpinid="Z80-514-PORTA10" endpinid="Node-530-0" pointList="-632,28,-632,32,-588,32,-588,108,-520,108" />
+
+<item itemtype="Connector" uid="Connector-1297" startpinid="Node-534-2" endpinid="Z80-514-PORTD4" pointList="-400,212,-724,212,-724,76,-696,76" />
+
+<item itemtype="Connector" uid="Connector-1298" startpinid="Node-496-2" endpinid="Memory-507-in4" pointList="-544,60,-476,60" />
+
+<item itemtype="Connector" uid="Connector-1299" startpinid="Node-523-1" endpinid="Z80-514-CPORT0NMI" pointList="-596,244,-752,244,-752,156,-696,156" />
+
+<item itemtype="Connector" uid="Connector-1300" startpinid="Fixed Voltage-525-outnod" endpinid="Node-524-0" pointList="-220,104,-204,104" />
+
+<item itemtype="Connector" uid="Connector-1301" startpinid="Node-551-1" endpinid="74HC373-556-Q2" pointList="-284,204,-284,136,-64,136,-64,48,-76,48" />
+
+<item itemtype="Connector" uid="Connector-1302" startpinid="Node-508-2" endpinid="Node-543-0" pointList="-204,64,-204,56" />
+
+<item itemtype="Connector" uid="Connector-1303" startpinid="Node-510-2" endpinid="Memory-507-in1" pointList="-556,36,-476,36" />
+
+<item itemtype="Connector" uid="Connector-1304" startpinid="SwitchDip-557-switch1-pinN" endpinid="74HC373-556-D1" pointList="-148,40,-124,40" />
+
+<item itemtype="Connector" uid="Connector-1305" startpinid="Node-529-1" endpinid="Memory-513-in14" pointList="-492,-68,-492,8,-372,8,-372,348,-348,348" />
+
+<item itemtype="Connector" uid="Connector-1306" startpinid="74HC373-556-Q0" endpinid="Node-560-0" pointList="-76,32,-72,32,-72,128,-292,128" />
+
+<item itemtype="Connector" uid="Connector-1307" startpinid="Led-512-rPin" endpinid="Resistor-546-lPin" pointList="-116,-64,-108,-64" />
+
+<item itemtype="Connector" uid="Connector-1308" startpinid="Z80-514-CPORT0RD" endpinid="Node-506-0" pointList="-632,180,-580,180,-580,140,-572,140" />
+
+<item itemtype="Connector" uid="Connector-1309" startpinid="Node-522-1" endpinid="Memory-513-in11" pointList="-516,116,-516,324,-348,324" />
+
+<item itemtype="Connector" uid="Connector-1310" startpinid="Node-494-2" endpinid="Memory-507-out5" pointList="-396,216,-396,68,-428,68" />
+
+<item itemtype="Connector" uid="Connector-1311" startpinid="Node-551-2" endpinid="Memory-513-out2" pointList="-284,204,-284,252,-300,252" />
+
+<item itemtype="Connector" uid="Connector-1312" startpinid="Z80-514-PORTA2" endpinid="Node-499-0" pointList="-632,92,-616,92,-616,44,-552,44" />
+
+<item itemtype="Connector" uid="Connector-1313" startpinid="Z80-514-CPORT0MREQ" endpinid="74HC138-526-!E2" pointList="-696,172,-744,172,-744,-28,-476,-28" />
+
+<item itemtype="Connector" uid="Connector-1314" startpinid="Node-508-1" endpinid="SwitchDip-557-switch4-pinP" pointList="-204,64,-172,64" />
+
+<item itemtype="Connector" uid="Connector-1315" startpinid="Node-495-2" endpinid="Memory-507-in5" pointList="-540,68,-476,68" />
+
+<item itemtype="Connector" uid="Connector-1316" startpinid="74HC08-541-1Y" endpinid="74HC08-541-2B" pointList="-264,-76,-264,-104,-320,-104,-320,-60,-312,-60" />
+
+<item itemtype="Connector" uid="Connector-1317" startpinid="Node-540-1" endpinid="74HC373-556-Q4" pointList="-276,212,-276,144,-56,144,-56,64,-76,64" />
+
+<item itemtype="Connector" uid="Connector-1318" startpinid="Z80-514-PORTA1" endpinid="Node-510-0" pointList="-632,100,-620,100,-620,36,-556,36" />
+
+<item itemtype="Connector" uid="Connector-1319" startpinid="Ground-535-Gnd" endpinid="74HC138-526-!E1" pointList="-552,-48,-476,-48,-476,-36" />
+
+<item itemtype="Connector" uid="Connector-1320" startpinid="Node-499-2" endpinid="Memory-507-in2" pointList="-552,44,-476,44" />
+
+<item itemtype="Connector" uid="Connector-1321" startpinid="Z80-514-CPORT0INT" endpinid="Node-559-1" pointList="-696,148,-748,148,-748,236,-596,236" />
+
+<item itemtype="Connector" uid="Connector-1322" startpinid="Node-506-1" endpinid="Memory-513-Pin_outEnable" pointList="-572,140,-572,364,-348,364" />
+
+<item itemtype="Connector" uid="Connector-1323" startpinid="Switch-555-pinP0" endpinid="Z80-514-CPORT0RESET" pointList="-624,132,-632,132,-632,140" />
+
+<item itemtype="Connector" uid="Connector-1324" startpinid="Node-500-1" endpinid="74HC373-556-Q6" pointList="-268,220,-268,152,-48,152,-48,80,-76,80" />
+
+<item itemtype="Connector" uid="Connector-1325" startpinid="SwitchDip-557-switch2-pinN" endpinid="74HC373-556-D2" pointList="-148,48,-124,48" />
+
+<item itemtype="Connector" uid="Connector-1326" startpinid="Node-521-1" endpinid="Memory-513-in3" pointList="-548,52,-548,260,-348,260" />
+
+<item itemtype="Connector" uid="Connector-1327" startpinid="Memory-507-out2" endpinid="Node-562-0" pointList="-428,44,-408,44,-408,204" />
+
+<item itemtype="Connector" uid="Connector-1328" startpinid="Z80-514-PORTA3" endpinid="Node-521-0" pointList="-632,84,-612,84,-612,52,-548,52" />
+
+<item itemtype="Connector" uid="Connector-1329" startpinid="Z80-514-PORTA4" endpinid="Node-496-0" pointList="-632,76,-608,76,-608,60,-544,60" />
+
+<item itemtype="Connector" uid="Connector-1330" startpinid="Switch-555-switch0pinN" endpinid="Resistor-503-lPin" pointList="-592,132,-592,112,-624,112" />
+
+<item itemtype="Connector" uid="Connector-1331" startpinid="Node-534-1" endpinid="Node-540-0" pointList="-400,212,-276,212" />
+
+<item itemtype="Connector" uid="Connector-1332" startpinid="Node-498-2" endpinid="Memory-513-out7" pointList="-264,224,-264,292,-300,292" />
+
+<item itemtype="Connector" uid="Connector-1333" startpinid="Node-501-2" endpinid="Memory-513-out0" pointList="-292,196,-292,236,-300,236" />
+
+<item itemtype="Connector" uid="Connector-1334" startpinid="Memory-507-out3" endpinid="Node-558-0" pointList="-428,52,-404,52,-404,208" />
+
+<item itemtype="Connector" uid="Connector-1335" startpinid="Node-517-2" endpinid="Node-527-0" pointList="-204,80,-204,72" />
+
+<item itemtype="Connector" uid="Connector-1336" startpinid="Z80-514-CPORT0WR" endpinid="Node-565-0" pointList="-632,172,-568,172" />
+
+<item itemtype="Connector" uid="Connector-1337" startpinid="Z80-514-PORTA15" endpinid="74HC138-526-A2" pointList="-696,60,-728,60,-728,-60,-476,-60" />
+
+<item itemtype="Connector" uid="Connector-1338" startpinid="Z80-514-PORTD1" endpinid="Node-539-0" pointList="-696,140,-712,140,-712,200,-412,200" />
+
+<item itemtype="Connector" uid="Connector-1339" startpinid="Z80-514-CPORT0IORQ" endpinid="74HC00-511-1A" pointList="-696,180,-704,180,-704,192,-328,192,-328,4,-312,4" />
+
+<item itemtype="Connector" uid="Connector-1340" startpinid="Node-505-2" endpinid="Memory-507-in8" pointList="-528,92,-476,92" />
+
+<item itemtype="Connector" uid="Connector-1341" startpinid="Node-543-1" endpinid="SwitchDip-557-switch3-pinP" pointList="-204,56,-172,56" />
+
+<item itemtype="Connector" uid="Connector-1342" startpinid="Node-552-1" endpinid="Memory-513-in0" pointList="-560,28,-560,236,-348,236" />
+
+<item itemtype="Connector" uid="Connector-1343" startpinid="Z80-514-PORTA8" endpinid="Node-505-0" pointList="-632,44,-632,48,-596,48,-596,92,-528,92" />
+
+<item itemtype="Connector" uid="Connector-1344" startpinid="Node-538-2" endpinid="Node-520-0" pointList="-588,148,-588,140" />
+
+<item itemtype="Connector" uid="Connector-1345" startpinid="Node-521-2" endpinid="Memory-507-in3" pointList="-548,52,-476,52" />
+
+<item itemtype="Connector" uid="Connector-1346" startpinid="Node-500-2" endpinid="Memory-513-out6" pointList="-268,220,-268,284,-300,284" />
+
+<item itemtype="Connector" uid="Connector-1347" startpinid="Z80-514-PORTD7" endpinid="Node-550-0" pointList="-696,124,-736,124,-736,224,-388,224" />
+
+<item itemtype="Connector" uid="Connector-1348" startpinid="Node-532-1" endpinid="Node-524-1" pointList="-204,88,-204,104" />
+
+<item itemtype="Connector" uid="Connector-1349" startpinid="Node-537-2" endpinid="Memory-507-in9" pointList="-524,100,-476,100" />
+
+<item itemtype="Connector" uid="Connector-1350" startpinid="Resistor-546-rPin" endpinid="Node-531-1" pointList="-76,-64,-72,-64" />
+
+<item itemtype="Connector" uid="Connector-1351" startpinid="Node-498-1" endpinid="74HC373-556-Q7" pointList="-264,224,-264,156,-44,156,-44,88,-76,88" />
+
+<item itemtype="Connector" uid="Connector-1352" startpinid="Node-561-1" endpinid="Memory-513-in7" pointList="-532,84,-532,292,-348,292" />
+
+<item itemtype="Connector" uid="Connector-1353" startpinid="Node-537-1" endpinid="Memory-513-in9" pointList="-524,100,-524,308,-348,308" />
+
+<item itemtype="Connector" uid="Connector-1354" startpinid="Z80-514-PORTD5" endpinid="Node-494-0" pointList="-696,92,-728,92,-728,216,-396,216" />
+
+<item itemtype="Connector" uid="Connector-1355" startpinid="Z80-514-CPORT0WAIT" endpinid="Resistor-553-lPin" pointList="-632,156,-624,156,-624,164" />
+
+<item itemtype="Connector" uid="Connector-1356" startpinid="Node-528-2" endpinid="Z80-514-PORTD6" pointList="-392,220,-732,220,-732,100,-696,100" />
+
+<item itemtype="Connector" uid="Connector-1357" startpinid="Node-539-1" endpinid="Node-502-0" pointList="-412,200,-288,200" />
+
+<item itemtype="Connector" uid="Connector-1358" startpinid="Node-554-2" endpinid="Memory-507-in12" pointList="-512,124,-476,124" />
+
+<item itemtype="Connector" uid="Connector-1359" startpinid="Node-562-1" endpinid="Node-551-0" pointList="-408,204,-284,204" />
+
+<item itemtype="Connector" uid="Connector-1360" startpinid="SwitchDip-557-switch4-pinN" endpinid="74HC373-556-D4" pointList="-148,64,-124,64" />
+
+<item itemtype="Connector" uid="Connector-1361" startpinid="Node-549-1" endpinid="SwitchDip-557-switch1-pinP" pointList="-204,40,-172,40" />
+
+<item itemtype="Connector" uid="Connector-1362" startpinid="Node-542-1" endpinid="Node-501-0" pointList="-416,196,-292,196" />
+
+<item itemtype="Connector" uid="Connector-1363" startpinid="Node-506-2" endpinid="Memory-507-Pin_outEnable" pointList="-572,140,-476,140" />
+
+<item itemtype="Connector" uid="Connector-1364" startpinid="Led-545-rPin" endpinid="Resistor-548-lPin" pointList="-112,-88,-104,-88" />
+
+<item itemtype="Connector" uid="Connector-1365" startpinid="Node-539-2" endpinid="Memory-507-out1" pointList="-412,200,-412,36,-428,36" />
+
+<item itemtype="Connector" uid="Connector-1366" startpinid="Node-531-2" endpinid="Resistor-548-rPin" pointList="-72,-64,-72,-88" />
+
+<item itemtype="Connector" uid="Connector-1367" startpinid="SwitchDip-557-switch6-pinN" endpinid="74HC373-556-D6" pointList="-148,80,-124,80" />
+
+<item itemtype="Connector" uid="Connector-1368" startpinid="Node-527-1" endpinid="SwitchDip-557-switch5-pinP" pointList="-204,72,-172,72" />
+
+<item itemtype="Connector" uid="Connector-1369" startpinid="Node-542-2" endpinid="Memory-507-out0" pointList="-416,196,-416,28,-428,28" />
+
+<item itemtype="Connector" uid="Connector-1370" startpinid="Node-529-2" endpinid="74HC138-526-A1" pointList="-492,-68,-476,-68" />
+
+<item itemtype="Connector" uid="Connector-1371" startpinid="Node-544-1" endpinid="SwitchDip-557-switch2-pinP" pointList="-204,48,-172,48" />
+
+<item itemtype="Connector" uid="Connector-1372" startpinid="Node-550-1" endpinid="Node-498-0" pointList="-388,224,-264,224" />
+
+<item itemtype="Connector" uid="Connector-1373" startpinid="Z80-514-CPORT0BUSRQ" endpinid="Resistor-518-lPin" pointList="-632,148,-624,148" />
+
+<item itemtype="Connector" uid="Connector-1374" startpinid="Node-560-2" endpinid="Node-501-1" pointList="-292,128,-292,196" />
+
+<item itemtype="Connector" uid="Connector-1375" startpinid="SwitchDip-557-switch7-pinN" endpinid="74HC373-556-D7" pointList="-148,88,-124,88" />
+
+<item itemtype="Connector" uid="Connector-1376" startpinid="Node-522-2" endpinid="Memory-507-in11" pointList="-516,116,-476,116" />
+
+<item itemtype="Connector" uid="Connector-1377" startpinid="Node-543-2" endpinid="Node-544-0" pointList="-204,56,-204,48" />
+
+<item itemtype="Connector" uid="Connector-1378" startpinid="Node-544-2" endpinid="Node-549-0" pointList="-204,48,-204,40" />
+
+<item itemtype="Connector" uid="Connector-1379" startpinid="Node-531-0" endpinid="Ground-536-Gnd" pointList="-72,-64,-72,-32" />
+
+<item itemtype="Connector" uid="Connector-1380" startpinid="Fixed Voltage-519-outnod" endpinid="Node-523-0" pointList="-596,260,-596,244" />
+
+<item itemtype="Connector" uid="Connector-1381" startpinid="Node-497-2" endpinid="Node-538-0" pointList="-588,164,-588,148" />
+
+<item itemtype="Connector" uid="Connector-1382" startpinid="Node-524-2" endpinid="74HC373-556-LE" pointList="-204,104,-124,104" />
+
+<item itemtype="Connector" uid="Connector-1383" startpinid="Resistor-553-rPin" endpinid="Node-497-1" pointList="-592,164,-588,164" />
+
+<item itemtype="Connector" uid="Connector-1384" startpinid="Node-509-2" endpinid="Memory-507-in6" pointList="-536,76,-476,76" />
+
+</circuit>
