@@ -1,3 +1,3 @@
-<h1 align="center"><b>Arquitectura y Organización de computadoras </b><img src="https://png.pngtree.com/png-vector/20191022/ourmid/pngtree-processor-icon-png-image_1827806.jpg" width="50"></h1>
+<h1 align="center"><b>Arquitectura y Organización de computadoras </b><img src="https://img.freepik.com/vector-premium/fondo-placa-circuito-placa-base-procesador-chip-futurista-sobre-fondo-tecnologia-azul_4974-243.jpg" width="50"></h1>
 <!--  -->
 # Proyecto-Arquitectura-y-Organizaci-n-de-computadoras
