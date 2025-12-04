@@ -1,7 +1,7 @@
 # Arquitectura y Organización de computadoras
 <h1 align="center"><img src="https://www.msx.org/sites/default/files/news/2024/04/goodbyez80.jpg" width="200"> </h1>
 
-#### Repositorio de recursos utilizados para la simulación del proyecto 
+## Repositorio de recursos utilizados para la simulación del proyecto 
 
 Para evaluar el funcionamiento del circuito antes de su montaje físico, se utilizó el software SimulIDE, el cual permite simular componentes electrónicos en tiempo real. Con esta herramienta fue posible verificar el comportamiento del diseño, identificar posibles errores en la implementación. 
 
