@@ -11,7 +11,7 @@ Con esta herramienta fue posible verificar el comportamiento del diseño, identi
 ### *El siguiente repositorio contiene :* 
 
 #### - **Archivo de la simulación en SimulIDE:**
-  - El archivo se encuentra en el repositorio con el nombre
+  - El archivo se encuentra en el repositorio con el nombre:
 ~~~
 SIMULADOR_Z80CONTRASEÑA.sim1 
 ~~~
