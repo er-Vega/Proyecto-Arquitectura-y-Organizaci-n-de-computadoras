@@ -1,3 +1,3 @@
-<h1 align="center"><b>Hi , I'm Valentina Werle </b><img src="https://png.pngtree.com/png-vector/20240510/ourlarge/pngtree-cloud-architecture-platform-internet-infrastructure-concept-on-a-transparent-background-png-image_12376424.pngf" width="50"></h1>
+<h1 align="center"><b>Hi , I'm Valentina Werle </b><img src="https://static.vecteezy.com/system/resources/previews/010/582/143/non_2x/laptop-a-relatively-small-and-light-personal-computer-a-flat-design-illustration-vector.jpg" width="50"></h1>
 <!--  -->
 # Proyecto-Arquitectura-y-Organizaci-n-de-computadoras
