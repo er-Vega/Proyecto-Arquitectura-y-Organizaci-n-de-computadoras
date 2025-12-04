@@ -23,6 +23,13 @@ SIMULADOR_Z80CONTRASEÑA.sim1
 ~~~
 programaCONTRASEÑA.hex 
 ~~~
+  - El contenido del compilado es:
+~~~
+:100000002100017E473200202100E07E32012021C4
+:1000100001017E3202203A0120B80EFF20063E0187
+:09002000ED7918043E02ED797639
+:00000001FF
+~~~
 ##### - Código fuente de ensamblador Z80 utilizado para el proyecto:
 ~~~
 ORG 0000h
