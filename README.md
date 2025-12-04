@@ -33,7 +33,7 @@ programaCONTRASEÑA.hex
 :09002000ED7918043E02ED797639
 :00000001FF
 ~~~
-##### - **Código fuente de ensamblador Z80 utilizado para el proyecto:**
+#### - **Código fuente de ensamblador Z80 utilizado para el proyecto:**
 ~~~
 ORG 0000h
 
