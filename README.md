@@ -6,8 +6,44 @@
 
 
 ~~~
-Creando códigos de bloque.
-Puedes añadir tantas líneas y párrafos como quieras.  
+ORG 0000h
+
+    ; Leer datos directamente a registros
+    LD HL, 0100h      ; Dirección ROM 0100h
+    LD A, (HL)        ; Leer primer dato
+    LD B, A           ; Guardar en B para comparación posterior
+    LD (2000h), A     ; Guardar copia en RAM 2000h
+
+    ; Leer segundo dato de E000h
+    LD HL, 0E000h     ; Dirección E000h
+    LD A, (HL)        ; Leer segundo dato
+    LD (2001h), A     ; Guardar en RAM 2001h
+
+    ; Leer tercer dato de 0101h
+    LD HL, 0101h      ; Dirección ROM 0101h
+    LD A, (HL)        ; Leer tercer dato
+    LD (2002h), A     ; Guardar en RAM 2002h
+
+    ; Comparar B (primer dato) con A (segundo dato)
+    LD A, (2001h)     ; Recargar segundo dato
+    CP B              ; Comparar con primer dato (en B)
+
+    ; Preparar puerto
+    LD C, 0FFh        ; Puerto FFh en C
+
+    JR NZ, diferentes ; Saltar si NO son iguales
+
+    ; Son iguales: enviar 01b
+    LD A, 00000001b   ; D0=1, D1=0
+    OUT (C), A
+    JR fin
+
+diferentes:
+    LD A, 00000010b   ; D0=0, D1=1
+    OUT (C), A
+
+fin:
+    HALT
 ~~~
 <!--  -->
 
